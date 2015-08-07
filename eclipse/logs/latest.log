@@ -1,0 +1,142 @@
+[17:27:13] [main/INFO]: Setting user: Player964
+[17:27:16] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:27:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Console Mod
+[17:27:28] [Sound Library Loader/INFO]: Sound engine started
+[17:27:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:27:41] [Client thread/ERROR]: Using missing texture, unable to load consolemod:textures/items/PS4.png
+java.io.FileNotFoundException: consolemod:textures/items/PS4.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:583) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[17:27:41] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:27:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Console Mod
+[17:27:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:27:42] [Client thread/ERROR]: Using missing texture, unable to load consolemod:textures/items/PS4.png
+java.io.FileNotFoundException: consolemod:textures/items/PS4.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:643) [Minecraft.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_45]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[17:27:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:27:43] [Sound Library Loader/INFO]: Sound engine started
+[17:27:55] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:27:55] [Server thread/INFO]: Generating keypair
+[17:27:56] [Server thread/INFO]: Preparing start region for level 0
+[17:27:57] [Server thread/INFO]: Preparing spawn area: 10%
+[17:27:58] [Server thread/INFO]: Preparing spawn area: 72%
+[17:27:59] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:28:00] [Server thread/INFO]: Player964[local:E:b0833ea8] logged in with entity id 387 at (9.099664640385454, 86.62227989251744, 207.11979425059548)
+[17:28:00] [Server thread/INFO]: Player964 ???????????
+[17:28:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2025ms behind, skipping 40 tick(s)
+[17:28:02] [Server thread/INFO]: Saving and pausing game...
+[17:28:03] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Overworld
+[17:28:03] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Nether
+[17:28:03] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/The End
+[17:28:35] [Server thread/INFO]: Saving and pausing game...
+[17:28:36] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Overworld
+[17:28:36] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Nether
+[17:28:36] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/The End
+[17:28:56] [Server thread/INFO]: Saving and pausing game...
+[17:28:56] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Overworld
+[17:28:56] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Nether
+[17:28:56] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/The End
+[17:28:57] [Server thread/INFO]: Stopping server
+[17:28:57] [Server thread/INFO]: Saving players
+[17:28:57] [Server thread/INFO]: Saving worlds
+[17:28:57] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Overworld
+[17:28:57] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/Nether
+[17:28:57] [Server thread/INFO]: Saving chunks for level 'Mod Testing'/The End
+[17:29:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:29:13] [Server thread/INFO]: Generating keypair
+[17:29:13] [Server thread/INFO]: Converting map!
+[17:29:13] [Server thread/INFO]: Scanning folders...
+[17:29:13] [Server thread/INFO]: Total conversion count is 0
+[17:29:14] [Server thread/INFO]: Preparing start region for level 0
+[17:29:15] [Server thread/INFO]: Preparing spawn area: 7%
+[17:29:16] [Server thread/INFO]: Preparing spawn area: 12%
+[17:29:17] [Server thread/INFO]: Preparing spawn area: 19%
+[17:29:18] [Server thread/INFO]: Preparing spawn area: 28%
+[17:29:19] [Server thread/INFO]: Preparing spawn area: 37%
+[17:29:20] [Server thread/INFO]: Preparing spawn area: 47%
+[17:29:21] [Server thread/INFO]: Preparing spawn area: 58%
+[17:29:22] [Server thread/INFO]: Preparing spawn area: 67%
+[17:29:23] [Server thread/INFO]: Preparing spawn area: 77%
+[17:29:24] [Server thread/INFO]: Preparing spawn area: 86%
+[17:29:25] [Server thread/INFO]: Preparing spawn area: 95%
+[17:29:26] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:29:26] [Server thread/INFO]: Player964[local:E:2b2f2093] logged in with entity id 2461 at (-201.5, 67.0, 266.5)
+[17:29:26] [Server thread/INFO]: Player964 ???????????
+[17:29:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2116ms behind, skipping 42 tick(s)
+[17:29:31] [Server thread/INFO]: Saving and pausing game...
+[17:29:31] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/Overworld
+[17:29:38] [Client thread/INFO]: Started on 4123
+[17:29:38] [Client thread/INFO]: [CHAT] ??? 4123 ????????????????
+[17:29:39] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/Nether
+[17:29:39] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/The End
+[17:29:51] [Server thread/INFO]: [Player964: ????????????????????????????]
+[17:29:51] [Client thread/INFO]: [CHAT] ??????????????
+[17:29:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 936 ms
+[17:29:57] [Server thread/INFO]: Player964 ? [??????] ????????
+[17:29:57] [Client thread/INFO]: [CHAT] Player964 ? [??????] ????????
+[17:30:31] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 27489ms behind, skipping 549 tick(s)
+[17:30:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2452ms behind, skipping 49 tick(s)
+[17:30:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2104ms behind, skipping 42 tick(s)
+[17:31:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 138 ms
+[17:31:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
+[17:31:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4115ms behind, skipping 82 tick(s)
+[17:31:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3851ms behind, skipping 77 tick(s)
+[17:37:03] [Server thread/INFO]: [Player964: ??????????????????????????]
+[17:37:03] [Client thread/INFO]: [CHAT] ??????????????
+[17:37:14] [Server thread/INFO]: Player964?????????????
+[17:37:14] [Client thread/INFO]: [CHAT] Player964?????????????
+[17:37:16] [Server thread/INFO]: Stopping server
+[17:37:16] [Server thread/INFO]: Saving players
+[17:37:16] [Server thread/INFO]: Saving worlds
+[17:37:16] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/Overworld
+[17:37:16] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/Nether
+[17:37:16] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/The End
+[17:37:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:37:20] [Server thread/INFO]: Generating keypair
+[17:37:20] [Server thread/INFO]: Preparing start region for level 0
+[17:37:21] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:37:21] [Server thread/INFO]: Player964[local:E:89a6e6f8] logged in with entity id 86500 at (-88.33445302804843, 58.0, -30.62001635015146)
+[17:37:21] [Server thread/INFO]: Player964 ???????????
+[17:37:27] [Server thread/INFO]: Saving and pausing game...
+[17:37:27] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/Overworld
+[17:37:27] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/Nether
+[17:37:27] [Server thread/INFO]: Saving chunks for level 'Damage Testing'/The End
+[17:37:29] [Server thread/INFO]: Deleting level Damage Testing
+[17:37:29] [Server thread/INFO]: Attempt 1...
+[17:37:49] [Client thread/INFO]: Stopping!
